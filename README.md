@@ -1,3 +1,28 @@
+# better-sqlite-sqlcipher
+
+This package is a fork from **better-sqlite3 v7.0.1**, a custom build for **sqleet v0.31.1**.
+
+## Installation
+
+```bash
+npm install better-sqlite3-sqleet
+```
+
+## Usage
+
+```js
+const Database = require('better-sqlite3-sqleet');
+
+const db = new Database(dbPath, options);
+
+db.pragma('key='secretKey');
+
+console.log(db.prepare("SELECT * FROM exampleTable").all());
+
+db.close();
+```
+
+
 # better-sqlite3 [![Build Status](https://travis-ci.org/JoshuaWise/better-sqlite3.svg?branch=master)](https://travis-ci.org/JoshuaWise/better-sqlite3) [![Build status](https://ci.appveyor.com/api/projects/status/ilk8hb8v95m54v6f/branch/master?svg=true)](https://ci.appveyor.com/project/JoshuaWise/better-sqlite3/branch/master)
 
 The fastest and simplest library for SQLite3 in Node.js.
