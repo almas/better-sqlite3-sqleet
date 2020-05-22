@@ -15,7 +15,7 @@ const Database = require('better-sqlite3-sqleet');
 
 const db = new Database(dbPath, options);
 
-db.pragma('key='secretKey');
+db.pragma("key='secretKey'");
 
 console.log(db.prepare("SELECT * FROM exampleTable").all());
 
