@@ -1,13 +1,13 @@
 {
   "name": "better-sqlite3-sqleet",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "The fastest and simplest library for SQLite3 in Node.js.",
-  "homepage": "http://github.com/JoshuaWise/better-sqlite3",
-  "author": "Joshua Wise <joshuathomaswise@gmail.com>",
+  "homepage": "https://github.com/LaurentDhont/better-sqlite3-sqleet",
+  "author": "Laurent Dhont <laurent@ldit.be>",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/JoshuaWise/better-sqlite3.git"
+    "url": "git://github.com/LaurentDhont/better-sqlite3-sqleet.git"
   },
   "dependencies": {
     "bindings": "^1.5.0",
