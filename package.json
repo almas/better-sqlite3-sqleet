@@ -1,6 +1,6 @@
 {
   "name": "better-sqlite3-sqleet",
-  "version": "1.0.3",
+  "version": "7.1.2",
   "description": "The fastest and simplest library for SQLite3-sqleet in Node.js.",
   "homepage": "https://github.com/LaurentDhont/better-sqlite3-sqleet",
   "author": "Laurent Dhont <laurent@ldit.be>",
