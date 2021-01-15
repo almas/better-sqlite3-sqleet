@@ -1,6 +1,6 @@
 # better-sqlite-sqleet
 
-This package is a fork from **better-sqlite3 v7.0.1**, a custom build for **sqleet v0.31.1**.
+This package is a fork from **better-sqlite3 v7.1.2**, a custom build for **sqleet v0.31.1**.
 
 ## Installation
 
